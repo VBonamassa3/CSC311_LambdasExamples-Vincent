@@ -53,7 +53,7 @@ public class ArraysAndStreams2 {
       System.out.println();
 
       //stream to count the number of strings that contain more than 5 characters
-      System.out.printf("number of strings with more than 5 characters: %d%n",
+      System.out.printf("number of strings with more than 5 characters: %s%n",
               Arrays.stream(strings)
                       .filter(s -> s.length() > 5)
                       .count());
